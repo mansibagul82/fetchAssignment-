@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: rgb(129, 8, 129);
+            font-family:Arial, Helvetica, sans-serif
+        }
+        div{
+            margin: auto;
+            width: 60%;
+            height: 440px;
+            text-align: center;
+            background-color: rgb(157, 228, 241);
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .point{
+            margin: 1%;
+            font-size: medium;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .bnt{
+            display: inline;
+            padding: 1.6%;
+            margin: 2%;
+            width: 26%;
+            cursor: pointer;
+            border-radius: 3px;
+            color: rgb(245, 242, 242);
+            background-color: black;
+        }
+        #table{
+            margin: auto;
+        }
+        table, th, td,tr{
+            padding: 1%;
+            background-color: rgb(163, 230, 163);
+            border: 2px solid rgba(18, 3, 3, 0.961);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Enter your name and age</h1>
+        <form>
+          <label class="point" for="name">Name =></label>
+          <input class="point" type="text" id="name" name="name" required><br>
+          <label class="point" for="age">Age =></label>
+          <input class="point" type="number" id="age" name="age" required><br>
+          <input class="bnt" type="button" value="Submit" onclick="storeData()">
+        </form>
+
+        <h1>Stored Data</h1>
+        <button class="bnt" onclick="display()"> Display Data</button>
+        <table id="table"></table>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
+
+
+
+
