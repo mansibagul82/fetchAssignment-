@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(255, 255, 231);
+}
+
+#container{
+    width: 40%;
+    margin-left: 31%;
+    color: rgb(79, 2, 79);
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style:italic;
+}
+
+#select{
+    height: 40px;
+    border-radius: 10px;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+    color: rgb(235, 104, 17);
+    background-color: rgb(243, 228, 228);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
